@@ -1,0 +1,29 @@
+h1 {
+    text-align: end;
+}
+
+header {
+    width: 100%;
+    border: 3px solid black;
+  }
+
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #75e51a;
+    padding: 20px;
+  }
+  
+  section {
+    flex: 3;
+    background-color: #e81818;
+    padding: 20px;
+    
+  }
+
+ 
