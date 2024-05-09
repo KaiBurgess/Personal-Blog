@@ -1,0 +1,1 @@
+const themeButtonEl = $('#theme-btn');
