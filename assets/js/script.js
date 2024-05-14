@@ -1,5 +1,8 @@
 const themeButtonEl = $('#theme-btn');
-const firstNameEl = $('input[name="first-name"]');
+
+
+const submitbtn = $('#submit')
+
 
 let isDark = true;
 
@@ -18,5 +21,17 @@ themeButtonEl.on('click', function () {
     event.preventDefault();
 
     console.log('First Name:', firstNameEl.val());
+
   }
    
+  submitbtn.on("click", function (){
+    const firstNameEl = $('input[name="first-name"]').val();
+    const tittle = $('#tittle').val();
+    const content = $('#content').val();
+    console.log (firstNameEl, tittle, content);
+    location.href = "./blog.html"
+
+  });
+
+
+//   💡   &#9728
