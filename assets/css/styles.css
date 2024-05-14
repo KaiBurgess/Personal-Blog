@@ -12,8 +12,9 @@ header {
     /* Turns this element into a flexbox */
     display: flex;
     /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
+    
     margin-top: 2%;
+    align-items: center;
   }
  
 
@@ -21,7 +22,7 @@ header {
   .box {
     /* A flex-basis of 200px sets the starting width */
     /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
-    flex: 1 0 200px;
+    
     padding: 255px;
     text-align: center;
     border-style: solid;
@@ -29,17 +30,22 @@ header {
   }
 
 
-  div {
+  .left div {
     display: flex;
     border-radius: 50%;
-    border-width: thick;
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     margin-top: 2%;
-    background-color:rgb(207, 128, 9)
-    
+    background-color:rgb(207, 128, 9);
+    justify-content: center;
+    width: 50%;
+    height: 50%;
     
 
   }
 
-  
+  .left {
+    width: 50%;
+    display: flex;
+justify-content: center;
+  }
